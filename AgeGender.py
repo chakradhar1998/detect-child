@@ -106,6 +106,8 @@ while cv.waitKey(1) < 0:
         #print("Age Output : {}".format(agePreds))
         #print("Age : {}, conf = {:.3f}".format(age, agePreds[0].max()))
         
+        
+        #bunny modified here
         vayasu=age[1:3]
         try:
             vayasu=int(vayasu)
